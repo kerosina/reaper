@@ -1,0 +1,8 @@
+# To use this example, copy it as config.toml
+# The values set are the defaults, except for the ones in Secrets which have to be edited
+[Secrets]
+Token="token"
+[Preferences]
+Prefix="*"
+DeleteAfter=5
+LogLevel="Info"

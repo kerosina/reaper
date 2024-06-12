@@ -1,0 +1,11 @@
+aiohttp
+pathlib
+beautifulsoup4
+colorama
+pycord-self
+gtts
+numpy
+requests
+pillow
+coloredlogs
+toml
