@@ -1,6 +1,6 @@
 from Libs import toggles,config
 from Backbone import discord
-import time
+import time,asyncio
 
 def help():
   return "Wipe server's channels"
@@ -14,7 +14,7 @@ async def exec(req):
   await req.embed("Wiping all channels") 
   for channel in req.guild.channels:
     try:
-      await channel.delete()
+      asyncio.create_task(channel.delete())
       time.sleep(0.1)
     except:
         pass
