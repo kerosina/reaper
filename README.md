@@ -37,6 +37,8 @@ To view them, you can use the command `get` with no arguments, or give it the na
 
 To edit a variable, you use the command `set`. For example, assuming the default prefix, run `*set spamtext Test 123` to set the spam text to "Test 123".
 
+Commands like *nuke, *spam and *pingspam can run continuously in the background. To stop them, you can either do `*set nuke false`, for example, or do `*stop`, which will stop any continuous command running.
+
 ## Issues
 
 If you have issues with the bot, set LogLevel to "debug" on the config.toml and describe your issue along with showing the console output on the [Issues tab](https://github.com/kerosina/reaper/issues).

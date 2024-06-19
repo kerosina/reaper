@@ -1,8 +1,11 @@
 spam=False
 nuke=False
+pingspam=False
 spamtext="@everyone"
 nuketext="@everyone"
 nukechname="nuked"
 nuketitle="RIP"
 spamchid=None
 nukeserverid=None
+pingspam_useramount=5
+pingspam_cooldown=2

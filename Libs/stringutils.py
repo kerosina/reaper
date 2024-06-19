@@ -1,3 +1,8 @@
+def chunks(lst, chunk_size=3):
+    chunks = [lst[i:i + chunk_size] for i in range(0, len(lst), chunk_size)]
+    for idx, chunk in enumerate(chunks):
+        yield idx, chunk
+
 def generate_embed(input_string):
     def format_chunk(chunk):
         lines = chunk.split('\n')
