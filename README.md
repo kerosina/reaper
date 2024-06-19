@@ -1,5 +1,7 @@
 # Reaper
-![Discord](https://img.shields.io/discord/1252771277027016744)
+![Discord](https://img.shields.io/discord/1252771277027016744) 
+
+[Join our discord server!](https://discord.gg/QmuqYHBJ)
 ```
    ██▀███  ▓█████ ▄▄▄       ██▓███  ▓█████  ██▀███
   ▓██ ▒ ██▒▓█   ▀▒████▄    ▓██░  ██▒▓█   ▀ ▓██ ▒ ██▒
