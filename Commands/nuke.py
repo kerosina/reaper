@@ -24,7 +24,10 @@ async def exec(req):
     return
   if toggles.nukeserverid == None:
     toggles.nukeserverid = req.guild.id
-  await req.delete()
+  try:
+    await req.delete()
+  except:
+    pass
   toggles.nuke = True
   await req.embed("Starting nuke (stop it by using " + config.prefix  +"set nuke false)")
   await req.guild.edit(name=toggles.nuketitle)

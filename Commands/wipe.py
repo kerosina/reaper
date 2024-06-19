@@ -10,7 +10,10 @@ async def exec(req):
     return
   if toggles.nukeserverid == None:
     toggles.nukeserverid = req.guild.id
-  await req.delete() 
+  try:
+    await req.delete() 
+  except:
+    pass
   await req.embed("Wiping all channels") 
   for channel in req.guild.channels:
     try:
